@@ -11,3 +11,7 @@ Many updates in this version, including :
 - Responsive website.
 
 Check this [link](https://sanhendrindp-v2.netlify.app/) to open the website.
+
+## Lighthouse Score
+
+![Score](images/Desktop%20Score.png)
