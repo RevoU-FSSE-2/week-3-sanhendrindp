@@ -1,4 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@300;400;500;600;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@300;400;500;600;700&display=swap"); */
+
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url(fonts/Montserrat-Regular.ttf);
+}
 
 * {
   margin: 0;
@@ -55,7 +60,23 @@ img {
   padding: 2rem;
 }
 
-.slider-wrapper {
+.header-image {
+  background-color: #a5a5a5;
+  height: 350px;
+  display: flex;
+  background-image: url(images/wallpaper-2.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+picture img {
+  border-radius: 20px;
+  margin: 20px auto;
+  width: 50%;
+}
+
+/* .slider-wrapper {
   position: relative;
   max-width: 48rem;
   margin: 0 auto;
@@ -97,7 +118,7 @@ img {
 
 .slider-nav a:hover {
   opacity: 1;
-}
+} */
 
 /* MAIN - ABOUT*/
 .container {
